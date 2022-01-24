@@ -37,12 +37,14 @@ body {
   color: #1b1b1b;
   background-color: #ffc222;
   padding: 4px 20px 5px 50px;
+  position: relative;
 }
 .header__email,
 .header__tel {
   letter-spacing: 0.25px;
   color: #cbcacb;
   line-height: 45px;
+  position: relative;
 }
 .header__email {
   padding-left: 24px;
@@ -83,4 +85,23 @@ body {
 }
 .menu li + li {
   padding-left: 10px;
+}
+.header__tel:before,
+.header__email:before,
+.header__btn:before {
+  font-family: "icomoon";
+  position: absolute;
+  left: 0;
+  color: #ffc222;
+}
+.header__tel::before {
+  content: "\f095";
+}
+.header__email:before {
+  content: "\f003";
+}
+.header__btn:before {
+  color: #1b1b1b;
+  left: 22px;
+  content: "\f0b1";
 }
