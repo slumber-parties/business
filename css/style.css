@@ -440,3 +440,45 @@ textarea {
   background-repeat: no-repeat;
   padding: 55px 0px 40px;
 }
+.advantages__inner {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.advantages-item {
+  max-width: 360px;
+  padding: 0 20px;
+}
+.advantages-title {
+  line-height: 24px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  padding: 60px 0 15px;
+  position: relative;
+}
+.advantages-text {
+  line-height: 24px;
+  color: #d3d2d2;
+  letter-spacing: 0.1px;
+}
+.advantages-title::before {
+  position: absolute;
+  content: "";
+  width: 40px;
+  height: 40px;
+  border: 2px solid #ffc222;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.advantages-title::after {
+  font-family: "icomoon";
+  content: "\f00c";
+  font-size: 14px;
+  position: absolute;
+  top: 9px;
+  left: 50%;
+  transform: translateX(-50%);
+}
