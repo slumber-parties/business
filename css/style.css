@@ -279,13 +279,13 @@ body {
   left: 0;
   right: 0;
 }
-.services__item-btn.default-btn {
+.services__item-btn .default-btn {
   color: #373636;
 }
 .services__item-btn.default-btn:after {
   color: #fff;
 }
-.services__item-link {
+.services__item-btn .services__item-link {
   color: #050505;
   font-family: "Roboto", sans-serif;
   border-bottom: 1px solid #050505;
