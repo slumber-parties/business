@@ -1,7 +1,10 @@
-# This repository contains a lending for business
+# ***This repository contains a lending for business***
 
-***Deploy Link:***  
-[DEPLOY](https://slumber-parties.github.io/business/)
+***Layout Screenshot*** 
 
-***Screenshot:*** 
-![](D:#Work#Study#Verstka\makets\company\picture-maket.jpg)
+[***DEPLOY LINK***](https://slumber-parties.github.io/business/)
+
+![picture-maket](https://user-images.githubusercontent.com/86536870/151880462-8819552c-87b4-42fd-bf2c-4575e35b29df.jpg)
+
+
+
